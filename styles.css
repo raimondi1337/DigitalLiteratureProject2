@@ -1,3 +1,4 @@
+/* styles for typed's blinking cursor */
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -19,6 +20,7 @@
     50% { opacity:0; }
     100% { opacity:1; }
 }
+/* styles for typed's blinking cursor */
 
 .container{
     padding: 0;
