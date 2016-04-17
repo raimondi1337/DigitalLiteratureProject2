@@ -22,6 +22,24 @@
 }
 /* styles for typed's blinking cursor */
 
+@font-face{
+    font-family: robotTeacher;
+    src: url(robot.ttf);
+}
+@font-face{
+    font-family: forgotten;
+    src: url(Forgotten.ttf);
+}
+
+/* Set font
+strong{
+    font-family: robotTeacher;
+}
+em{
+    font-family: forgotten;
+}
+*/
+
 .container{
     padding: 0;
     margin: 0;
