@@ -6,6 +6,18 @@ function type(str){
 		typeSpeed: 0
 	});
 };
+    
+
+    var sad = document.getElementById("playSad");
+    var happy = document.getElementById("playHappy");
+
+    function sadSound(){
+        sad.play();
+    }
+    function happySound(){
+        happy.play();
+    }
+
 
 $("#one").click(function(){type("Now this is a story all about how")});
 $("#two").click(function(){type("My life got flipped turned upside down")});

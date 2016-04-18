@@ -10,9 +10,9 @@
 				<h1>AGRIPPA</h1>
 				<h3>(A Book of The Dead)</h3>
 				<h3>by William Gibson</h3>
-                <p><strong id="ten">I hesitated</strong><br>
+                <p><button onclick="happySound()" class="happy" id="ten">I hesitated</button><br>
 				before untying the bow<br>
-                that bound this book <strong id="sixteen">together</strong>.</p>
+                that bound this book <button onclick="happySound()"  class="happy" id="sixteen">together</button>.</p>
 
 				<p>A black book:<br>
 				ALBUMS CA. AGRIPPA<br>
@@ -22,7 +22,7 @@
 				black construction paper</p>
 
 				<p>The string he tied<br>
-                Has been unravelled by <em id="onel">years</em>strong><br>
+                Has been unravelled by <button onclick="sadSound()" class="sad" id="onel" >years</button><br>
 				and the dry weather of trunks<br>
 				Like a lady's shoestring from the First World War<br>
 				Its metal ferrules eaten by oxygen<br>
@@ -79,7 +79,7 @@
 				A western saddle<br>
 				And a cloth cap<br>
 				Proud and happy<br>
-                <em id="nine">As any boy could be</em></p>
+                <button onclick="sadSound()" class="sad" id="nine">As any boy could be</button></p>
 
 				<p>"Arthur and Ford fishing 1919"<br>
 				Shot by an adult<br>
@@ -123,7 +123,7 @@
 
 				<h4>II.</h4>
 
-            <p><em id="five">The mechanism</em>: stamped black tin,<br>
+            <p><button onclick="sadSound()" class="sad" id="five">The mechanism</button>: stamped black tin,<br>
 				Leatherette over cardboard, bits of boxwood,<br>
 				A lens<br>
 				The shutter falls<br>
@@ -170,7 +170,7 @@
 				Absolutely alone<br>
 				in awareness of the mechanism.</p>
 
-                <p>Like <em id="seven">the first time</em> you put your mouth<br>
+                <p>Like <button onclick="sadSound()" class="sad" id="seven">the first time</button> you put your mouth<br>
 				on a woman.</p>
 
 				<h4>III.</h4>
@@ -208,7 +208,7 @@
 				sidewalk in front of his house with the broad smooth slab of poured<br>
 				concrete, signing this improvement with a flourish, "W.F.<br>
 				Gibson 1921". He believed in concrete and plywood<br>
-                particularly. Seventy <strong id="eight">years later</strong> his signature remains, the slab<br>
+                particularly. Seventy <button onclick="happySound()"  class="happy" id="eight">years later</button> his signature remains, the slab<br>
 				floating perfectly level and charmless between mossy stretches of<br>
 				sweet uneven brick that knew the iron shoes of Yankee horses.</p>
 
@@ -222,7 +222,7 @@
 
 				<h4>IV.</h4>
 
-                <p><strong id="six">He made it</strong> to the age of torqueflite radio<br>
+                <p><button onclick="happySound()" class="happy" id="six">He made it</button> to the age of torqueflite radio<br>
 				but not much past that, and never in that town.<br>
 				That was mine to know, Main Street lined with<br>
 				Rocket Eighty-eights,<br>
@@ -259,7 +259,7 @@
 				clipping walnut twigs from a branch<br>
 				two feet above my head.</p>
 
-                <p>So that <em id="fifteen">I remembered</em> the mechanism.</p>
+                <p>So that <button onclick="sadSound()" class="sad" id="fifteen">I remembered</button> the mechanism.</p>
 
 				<h4>V.</h4>
 
@@ -299,7 +299,7 @@
 				copies of certain magazines<br>
 				esoteric and precious, and, yes,<br>
 				I knew then, knew utterly,<br>
-                <em id="thirteen">the deal done in my heart forever</em>,<br>
+                <button onclick="sadSound()" class="sad" id="thirteen">the deal done in my heart forever</button>,<br>
 				though how I knew not,<br>
 				nor ever have.</p>
 
@@ -309,17 +309,17 @@
 				so quiet I could hear the timers of the traffic lights a block away:<br>
 				the mechanism. Nobody else, just the silence<br>
 				spreading out to where the long trucks groaned<br>
-                on the highway their vast brute <strong id="twelve">souls in want</strong>.</p>
+                on the highway their vast brute <button onclick="happySound()" class="happy" id="twelve">souls in want</button>.</p>
 
 
 				<h4>VI.</h4>
 
 				<p>There must have been a true last time<br>
 				I saw the station but I don't remember<br>
-                <strong id="">I remember</strong> the <em id="three">stiff black</em> horsehide coat<br>
+                <button onclick="happySound()" class="happy" id="">I remember</button> the <button onclick="sadSound()" class="sad" id="three">stiff black</button> horsehide coat<br>
 				gift in Tucson of a kid named Natkin<br>
-                <strong id="two">I remember</strong> the cold<br>
-                <strong id="four">I remember</strong> the Army duffle<br>
+                <button onclick="happySound()" class="happy" id="two">I remember</button> the cold<br>
+                <button onclick="happySound()" class="happy" id="four">I remember</button> the Army duffle<br>
 				that was lost and the black man in Buffalo<br>
 				trying to sell me a fine diamond ring,<br>
 				and in the coffee shop in Washington<br>
@@ -329,7 +329,7 @@
 
 				<p>They must have asked me something<br>
 				at the border<br>
-                <em id="eleven">I was admitted</em><br>
+                <button onclick="sadSound()" class="sad" id="eleven">I was admitted</button><br>
 				somehow<br>
 				and behind me swung the stamped tin shutter<br>
 				across the very sky<br>
@@ -359,15 +359,24 @@
 
 				<p>laughing,<br>
 				in the mechanism.</p>
+            <audio id="playSad"><source src="sadVoice.mp3" type="audio/mp3"></audio>
+            <audio id="playHappy"><source src="happyVoice.mp3" type="audio/mp3"></audio>
 				<ul>
 					<li id="one">one</li>
 					<li id="two">two</li>
 				</ul>
+                
 			</span>
 		</div><!--
 		--><div class="container">
 			<div id="right"></div>
 		</div>
-		<script src="script.js"></script>
+		<script src="script.js">
+       // var sad = document.getElementById("playSad");
+            
+        //function sadSound(){
+        //    sad.play();
+        //}
+        </script>
 	</body>
 </html>
