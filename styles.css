@@ -43,7 +43,6 @@
 button{
     background: none;
     border: none;
-    font-weight: bold;
     font-size: 14;
     margin: 0;
     padding: 0;
@@ -55,4 +54,33 @@ button{
     border: 0;
     width: 50%;
     display: inline-block;
+    background: whitesmoke;
+}
+
+#left{
+    margin: 50px;
+}
+
+#right{
+    position: fixed;
+    top:150px;
+}
+
+.happy{
+    cursor: pointer;
+    background: #DDDDFF;
+}
+
+.sad{
+    cursor: pointer;
+    background: #FFDDDD;
+}
+
+#qr{
+    position: fixed;
+    top: 250px;
+}
+
+.hover{
+    background: #DDFFDD;
 }

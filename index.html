@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<span id="left">
+			<div id="left">
 				<h1>AGRIPPA</h1>
 				<h3>(A Book of The Dead)</h3>
 				<h3>by William Gibson</h3>
@@ -22,7 +22,7 @@
 				black construction paper</p>
 
 				<p>The string he tied<br>
-                Has been unravelled by <button onclick="sadSound()" class="sad" id="onel" >years</button><br>
+                Has been unravelled by <button onclick="sadSound()" class="sad" id="one" >years</button><br>
 				and the dry weather of trunks<br>
 				Like a lady's shoestring from the First World War<br>
 				Its metal ferrules eaten by oxygen<br>
@@ -359,24 +359,14 @@
 
 				<p>laughing,<br>
 				in the mechanism.</p>
-            <audio id="playSad"><source src="sadVoice.mp3" type="audio/mp3"></audio>
-            <audio id="playHappy"><source src="happyVoice.mp3" type="audio/mp3"></audio>
-				<ul>
-					<li id="one">one</li>
-					<li id="two">two</li>
-				</ul>
-                
-			</span>
+	            <audio id="playSad"><source src="sadVoice.mp3" type="audio/mp3"></audio>
+	            <audio id="playHappy"><source src="happyVoice.mp3" type="audio/mp3"></audio>                
+			</div>
 		</div><!--
 		--><div class="container">
 			<div id="right"></div>
+			<img id="qr" src=""></img>
 		</div>
-		<script src="script.js">
-       // var sad = document.getElementById("playSad");
-            
-        //function sadSound(){
-        //    sad.play();
-        //}
-        </script>
+		<script src="script.js"></script>
 	</body>
 </html>
